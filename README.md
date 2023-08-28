@@ -6,10 +6,11 @@ This project focuses in making a ML model based on tensors to detect objects and
 
 ## Table of Contents
 
-- [Requirements](#Requirements)
+- [Requirements](#requirements)
 - [Installation](#installation)
+- [Data](#data)
 - [Usage](#usage)
-- [Related links](#Related links)
+- [Related links](#related_links)
 
 ## Requirements
 
@@ -22,7 +23,11 @@ This module requires the following modules:
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+In order to use some of the codes of this repository (specifically to record or save the images), you will need to have access preferably to a Linux computer (but can be a Windows computer also), where you can download the [ZED SDK](https://www.stereolabs.com/developers/release/) and the [PyZed API](https://www.stereolabs.com/docs/app-development/python/install/) to have access to all functions in the camera. If you have access to a Jetson computer, make sure to download the specific SDK since you can have access to CUDA functions.
+
+## Data
+
+In order to access the data recorded from the Zed camera that was used in the experiment, you will need to have an University of Essex One Drive Account in order to download the next folder: [Data recordings](https://essexuniversity-my.sharepoint.com/:f:/g/personal/cr22144_essex_ac_uk/EpRaFdlUKGRIrvHqJGyQUgsBLk6QWljwuT4jpetEnfBcjA?e=h57Bli)
 
 ## Usage
 
@@ -37,7 +42,7 @@ An example to record is running this in terminal:
 
 And then the recording will start. It is important that when not using the default path, finish the path with an / to make sure it creates a folder if it does not exist.
 
-## Related links
+## Related_Links
 
 Some useful tutorials that relates to this project are the following:
 - [Jetson Orin Nano Starter Guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit#intro)
