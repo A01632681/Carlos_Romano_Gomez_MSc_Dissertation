@@ -1,0 +1,26 @@
+<annotation>
+	<folder>7</folder>
+	<filename>0068.jpg</filename>
+	<path>D:\Documentos\Dissertation\Videos\7\0068.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Door</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>785</xmin>
+			<ymin>273</ymin>
+			<xmax>948</xmax>
+			<ymax>882</ymax>
+		</bndbox>
+	</object>
+</annotation>

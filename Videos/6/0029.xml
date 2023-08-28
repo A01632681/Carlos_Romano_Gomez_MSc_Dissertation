@@ -1,0 +1,26 @@
+<annotation>
+	<folder>6</folder>
+	<filename>0029.jpg</filename>
+	<path>D:\Documentos\Dissertation\Videos\6\0029.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>261</xmin>
+			<ymin>611</ymin>
+			<xmax>692</xmax>
+			<ymax>1080</ymax>
+		</bndbox>
+	</object>
+</annotation>
