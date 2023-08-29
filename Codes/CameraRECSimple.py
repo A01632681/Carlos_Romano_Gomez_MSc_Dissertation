@@ -1,6 +1,5 @@
 import pyzed.sl as sl
 from time import process_time
-import math
 
 exit_signal = False
 

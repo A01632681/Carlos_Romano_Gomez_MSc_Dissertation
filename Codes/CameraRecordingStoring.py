@@ -1,12 +1,11 @@
 import pyzed.sl as sl
 from time import process_time
-import math
 import os
 import numpy as np
 import cv2
 
 exit_signal = False
-seconds = 45
+no_frames = 45
 
 # -----------------------------Recording PNG---------------------------------------------
 def Recording(filepath,frames):
@@ -181,7 +180,7 @@ def main():
     option = input("Do you want to record or store [r/s]?: ")
     if option == "r":
         print("Recording will now start, use Ctrl-C to stop recording.")
-        Recording(filepath,seconds)
+        Recording(filepath,no_frames)
         print("Recording complete.")
     elif option == "s":
         print("Converting SVO to PNG.")
